@@ -27,7 +27,7 @@ router.get('/', function(req,res){
 })
 
 // insert data
-router.post('/store',
+router.post('/hero',
 [
     body('nama').notEmpty(),
     body('role').notEmpty(),
